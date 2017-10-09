@@ -122,6 +122,8 @@ class PoseViewWidget(QWidget):
         glTranslatef(*self._position)     # Translate Box
 
         matrix = quaternion_matrix(self._orientation)  # convert quaternion to translation matrix
+        # tf uses row-major while gl expects column-major
+        matrix = matrix.transpose()
         glMultMatrixf(matrix)             # Rotate Box
 
         glBegin(GL_QUADS)                 # Start Drawing The Box
