@@ -57,14 +57,6 @@ class PoseViewWidget(QWidget):
         loadUi(ui_file, self)
         self._plugin = plugin
 
-        # subscribe immediately if topic name found on param server
-        if rospy.has_param('~topic'):
-            topic = rospy.get_param('~topic')
-            try:
-                self._subscribe_topic(topic)
-            except(AttributeError):
-                rospy.logwarn('invalid topic name {}'.format(topic))
-
         self._position = (2.0, 2.0, 2.0)
         self._orientation = quaternion_about_axis(0.0, (1.0, 0.0, 0.0))
         self._topic_name = None
@@ -89,6 +81,14 @@ class PoseViewWidget(QWidget):
         self._update_timer = QTimer(self)
         self._update_timer.timeout.connect(self.update_timeout)
         self._update_timer.start(40)
+
+        # subscribe immediately if topic name found on param server
+        if rospy.has_param('~topic'):
+            topic = rospy.get_param('~topic')
+            try:
+                self._subscribe_topic(topic)
+            except(AttributeError):
+                rospy.logwarn('invalid topic name {}'.format(topic))
 
     def save_settings(self, plugin_settings, instance_settings):
         view_matrix_string = repr(self._gl_view.get_view_matrix())
