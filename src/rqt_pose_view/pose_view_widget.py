@@ -83,12 +83,12 @@ class PoseViewWidget(QWidget):
         self._update_timer.start(40)
 
         # subscribe immediately if topic name found on param server
-        if rospy.has_param('~topic'):
-            topic = rospy.get_param('~topic')
+        if rospy.has_param('~pose_view_topic'):
+            topic = rospy.get_param('~pose_view_topic')
             try:
                 self._subscribe_topic(topic)
-            except(AttributeError):
-                rospy.logwarn('invalid topic name {}'.format(topic))
+            except AttributeError:
+                rospy.logwarn("invalid topic name '{}'".format(topic))
 
     def save_settings(self, plugin_settings, instance_settings):
         view_matrix_string = repr(self._gl_view.get_view_matrix())
