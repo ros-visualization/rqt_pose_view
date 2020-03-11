@@ -2,8 +2,8 @@
 Changelog for package rqt_pose_view
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.5.10 (2020-03-11)
+-------------------
 * auto-subscribe if topic name on param server (`#5 <https://github.com/ros-visualization/rqt_pose_view/issues/5>`_)
 
 0.5.9 (2020-03-11)
