@@ -2,6 +2,11 @@
 Changelog for package rqt_pose_view
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* bump CMake minimum version to avoid CMP0048 warning
+* add Python 3 conditional dependencies (`#6 <https://github.com/ros-visualization/rqt_pose_view/issues/6>`_)
+
 0.5.8 (2017-10-09)
 ------------------
 * fix direction of rotations (`#3 <https://github.com/ros-visualization/rqt_pose_view/issues/3>`_)
