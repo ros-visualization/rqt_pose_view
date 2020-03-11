@@ -2,8 +2,8 @@
 Changelog for package rqt_pose_view
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.5.9 (2020-03-11)
+------------------
 * bump CMake minimum version to avoid CMP0048 warning
 * add Python 3 conditional dependencies (`#6 <https://github.com/ros-visualization/rqt_pose_view/issues/6>`_)
 
