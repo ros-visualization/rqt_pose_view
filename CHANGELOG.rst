@@ -2,6 +2,11 @@
 Changelog for package rqt_pose_view
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* fix shebang line for python3 (`#7 <https://github.com/ros-visualization/rqt_pose_view/issues/7>`_)
+* Contributors: Mikael Arguedas
+
 0.5.10 (2020-03-11)
 -------------------
 * auto-subscribe if topic name on param server (`#5 <https://github.com/ros-visualization/rqt_pose_view/issues/5>`_)
