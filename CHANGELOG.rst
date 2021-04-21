@@ -2,8 +2,8 @@
 Changelog for package rqt_pose_view
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.5.11 (2021-04-21)
+-------------------
 * fix shebang line for python3 (`#7 <https://github.com/ros-visualization/rqt_pose_view/issues/7>`_)
 * Contributors: Mikael Arguedas
 
