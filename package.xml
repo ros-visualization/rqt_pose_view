@@ -2,9 +2,7 @@
   <name>rqt_pose_view</name>
   <version>0.5.11</version>
   <description>rqt_pose_view provides a GUI plugin for visualizing 3D poses.</description>
-  <maintainer email="dthomas@osrfoundation.org">Dirk Thomas</maintainer>
-  <maintainer email="scholz@sim.tu-darmstadt.de">Dorian Scholz</maintainer>
-  <maintainer email="ablasdel@gmail.com">Aaron Blasdel</maintainer>
+  <maintainer email="scott@openrobotics.org">Scott Logan</maintainer>
 
   <license>BSD</license>
 
@@ -12,6 +10,8 @@
   <url type="repository">https://github.com/ros-visualization/rqt_pose_view</url>
   <url type="bugtracker">https://github.com/ros-visualization/rqt_pose_view/issues</url>
 
+  <author>Aaron Blasdel</author>
+  <author>Dirk Thomas</author>
   <author>Dorian Scholz</author>
 
   <buildtool_depend>catkin</buildtool_depend>
