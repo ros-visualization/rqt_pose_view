@@ -2,8 +2,8 @@
 Changelog for package rqt_pose_view
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.5.12 (2025-04-10)
+-------------------
 * Import setup from setuptools instead of distutils.core (`#9 <https://github.com/ros-visualization/rqt_pose_view/issues/9>`_)
 * Update maintainers (`#8 <https://github.com/ros-visualization/rqt_pose_view/issues/8>`_)
 * Contributors: Arne Hitzmann, David V. Lu!!, Matthijs van der Burgh, Shane Loretz
