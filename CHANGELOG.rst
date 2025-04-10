@@ -2,6 +2,12 @@
 Changelog for package rqt_pose_view
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Import setup from setuptools instead of distutils.core (`#9 <https://github.com/ros-visualization/rqt_pose_view/issues/9>`_)
+* Update maintainers (`#8 <https://github.com/ros-visualization/rqt_pose_view/issues/8>`_)
+* Contributors: Arne Hitzmann, David V. Lu!!, Matthijs van der Burgh, Shane Loretz
+
 0.5.11 (2021-04-21)
 -------------------
 * fix shebang line for python3 (`#7 <https://github.com/ros-visualization/rqt_pose_view/issues/7>`_)
