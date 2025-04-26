@@ -4,7 +4,7 @@
   schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>rqt_pose_view</name>
-  <version>0.5.12</version>
+  <version>0.5.13</version>
   <description>rqt_pose_view provides a GUI plugin for visualizing 3D poses.</description>
   <maintainer email="scott@openrobotics.org">Scott Logan</maintainer>
 

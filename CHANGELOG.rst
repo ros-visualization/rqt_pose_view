@@ -2,8 +2,8 @@
 Changelog for package rqt_pose_view
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.5.13 (2025-04-26)
+-------------------
 * Bump cmake_minimum_required to avoid deprecation (`#10 <https://github.com/ros-visualization/rqt_pose_view/issues/10>`_)
 * Contributors: Arne Hitzmann
 
