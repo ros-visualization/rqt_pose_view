@@ -2,6 +2,11 @@
 Changelog for package rqt_pose_view
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Bump cmake_minimum_required to avoid deprecation (`#10 <https://github.com/ros-visualization/rqt_pose_view/issues/10>`_)
+* Contributors: Arne Hitzmann
+
 0.5.12 (2025-04-10)
 -------------------
 * Import setup from setuptools instead of distutils.core (`#9 <https://github.com/ros-visualization/rqt_pose_view/issues/9>`_)
